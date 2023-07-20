@@ -40,3 +40,12 @@ body {
   display: flex;
   gap: 1rem;
 }
+
+.main-page {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  height: 17%;
+}
