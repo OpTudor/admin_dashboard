@@ -124,3 +124,33 @@ img {
   display: flex;
   gap: 2rem;
 }
+.main-stuff {
+  display: flex;
+}
+.projects {
+  flex: 3;
+  padding: 2rem;
+}
+.right-sidebar {
+  flex: 1;
+  padding: 2rem;
+}
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 2rem;
+}
+.project {
+  height: 200px;
+  border: 1px solid black;
+}
+.right-sidebar {
+  display: flex;
+  flex-direction: column;
+}
+.announcements {
+  flex: 1;
+}
+.trending {
+  flex: 1;
+}
